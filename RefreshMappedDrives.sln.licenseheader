@@ -1,4 +1,6 @@
-﻿#region License
+﻿extensions: designer.cs generated.cs
+extensions: .cs .cpp .h
+#region License
 /*
 This is free and unencumbered software released into the public domain.
 
@@ -27,22 +29,6 @@ For more information, please refer to <http://unlicense.org>
 */
 #endregion
 
-using System;
-using System.Windows.Forms;
-
-namespace RefreshMappedDrives
-{
-    static class Program
-    {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
-        [STAThread]
-        static void Main()
-        {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMain());
-        }
-    }
-}
+extensions: .aspx .ascx
+extensions: .vb
+extensions:  .xml .config .xsd
